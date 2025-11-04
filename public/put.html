@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <a href="get.html"><button>GET - Consultar</button></a>
+        <a href="index.html"><button>POST - Cadastrar</button></a>
+        <a href="delete.html"><button>DELETE - Excluir</button></a>
+        <h3>PUT</h3>
+
+        <label for="id">ID:</label>
+        <input type="text" id="id" readonly>
+        <br>
+
+        <label for="nomeAtualizar">Nome:</label>
+        <input type="text" id="nomeAtualizar">
+        <br>
+
+        <label for="idadeAtualizar">Idade:</label>
+        <input type="text" id="idadeAtualizar">
+        <br>
+
+        <label for="cpfAtualizar">CPF:</label>
+        <input type="text" id="cpfAtualizar" placeholder="Digite o CPF para busca">
+        <br><br>
+
+        <input type="button" onclick="buscarDados()" value="Buscar">
+        <input type="button" onclick="atualizarDados()" value="Atualizar">
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>

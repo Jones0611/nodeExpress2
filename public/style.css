@@ -1,0 +1,76 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centraliza o conteúdo principal */
+center {
+    display: block;
+    margin-top: 50px;
+}
+
+/* Títulos */
+h1, h3 {
+    color: #222;
+}
+
+/* Espaçamento entre elementos */
+label, input {
+    margin: 5px 0;
+}
+
+/* Campos de texto */
+input[type="text"] {
+    padding: 6px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+/* Botões */
+button, 
+input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover, 
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Tabela (GET / DELETE) */
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
